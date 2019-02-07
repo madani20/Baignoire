@@ -5,7 +5,7 @@ package baignoire;
  * La classe <b>Robinet</b> étends la classe <u>Thread</u>.
  * <p>
  * La fonction de cette classe est de fournir un certain débit d'eau par la méthode <i>debiter(int)</i>.
- * Elle impacte donc le volume d'eau de la baignoire.
+ * Elle impacte donc le volume total d'eau de la baignoire.
  * </p>
  * 
  * 
