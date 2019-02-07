@@ -26,7 +26,8 @@ public class Baignoire extends Thread {
 	public static Eau contenu=new Eau(0);
 	
 	/**
-	 * Méthode static simulant une fuite d'une quantité d'eau donnée. Elle impacte directement l'attribut maximum.
+	 * Méthode static qui simule la fuite d'une certaine quantité d'eau. Cette quantité d'eau impacte directement 
+	 * le volume d'eau total dans la baignoire.
 	 * @param quantite
 	 */
 	public void fuite(int quantite ){
