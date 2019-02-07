@@ -27,7 +27,7 @@ public class Baignoire extends Thread {
 	
 	/**
 	 * Méthode static qui simule la fuite d'une certaine quantité d'eau. Cette quantité d'eau impacte directement 
-	 * le volume d'eau total dans la baignoire.
+	 * le volume d'eau total de la baignoire.
 	 * @param quantite
 	 */
 	public void fuite(int quantite ){
