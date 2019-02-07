@@ -20,12 +20,12 @@ public class RemplirThread {
 	public static void main(String[] args) {
 				 
 		
-		Baignoire baignoire=new Baignoire();
-		Robinet robinet=new Robinet();
+		Baignoire UneBaignoire=new Baignoire();
+		Robinet unRobinet=new Robinet();
 		
 		//robinet.setPriority(Thread.MAX_PRIORITY);
-		robinet.start();
-		baignoire.start();
+		unRobinet.start();
+		UneBaignoire.start();
 	}
 
 }
